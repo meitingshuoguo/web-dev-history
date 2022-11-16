@@ -42,11 +42,11 @@ jobs:
 
       # 装依赖
       - name: Install
-        run: npm
+        run: npm install
 
       # 打包
       - name: Build
-        run: npm build
+        run: npm run build
 
       # 上传打包资源
       - name: Deploy
